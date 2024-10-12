@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/todos';  // Adjust according to your backend URL
+
+
+
+const API_URL = 'https://todo-backend-rdvr.onrender.com/api/todos';  // Adjust according to your backend URL
 
 // Fetch all todos
 export const getTodos = async () => {
