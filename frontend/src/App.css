@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  
+  width: 95vw;
+}
+
+.con h1{
+ 
+  padding: 1rem ;
+}
+
+
+
+
+input, textarea, button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  
+  padding: 0;
+  width: 15rem;
+  height: 15rem;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  
+}
+
+li h3{
+  font-size: 2rem;
+}
+
+li p{
+  padding: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
